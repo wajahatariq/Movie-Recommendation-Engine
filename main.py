@@ -11,18 +11,15 @@ st.set_page_config(page_title="Recommendation Engine", layout="wide", initial_si
 
 st.markdown("""
     <style>
-    .stApp { background-color: #F4F6F9; }
-    h1, h2, h3, p, span, label { color: #1A365D !important; font-family: 'Segoe UI', Tahoma, sans-serif; }
-    [data-testid="stSidebar"] { background-color: #E2E8F0 !important; border-right: 1px solid #CBD5E0; }
-    [data-testid="stSidebar"] .stSelectbox label, [data-testid="stSidebar"] .stSlider label {
-        color: #1A365D !important; font-weight: 700 !important;
-    }
-    .stButton>button { background-color: #1A365D; color: white !important; border-radius: 6px; padding: 10px 24px; font-weight: bold; width: 100%; }
-    .stButton>button:hover { background-color: #2B6CB0; color: white !important; }
+    .main { background-color: #F4F6F9; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    h1, h2, h3 { color: #1A365D; font-weight: 600; }
+    .stSelectbox label, .stSlider label { font-weight: 500; color: #2D3748; }
+    .stButton>button { background-color: #1A365D; color: white; border-radius: 6px; border: none; padding: 10px 24px; font-weight: bold; width: 100%; }
+    .stButton>button:hover { background-color: #2B6CB0; color: white; }
     .movie-card { background-color: white; padding: 15px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 15px; border-top: 4px solid #1A365D; }
     .movie-title { font-size: 16px; font-weight: bold; color: #1A365D; margin-bottom: 5px; }
     .movie-rating { font-size: 14px; color: #E53E3E; font-weight: bold; }
-    .movie-link { font-size: 12px; color: #3182CE; text-decoration: none; font-weight: 600; }
+    .movie-link { font-size: 12px; color: #3182CE; text-decoration: none; }
     </style>
 """, unsafe_allow_html=True)
 
